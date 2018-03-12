@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
-  get '/api/menus/:id', to: 'api/menus#index'
-  get '/api/items/:id', to: 'api/items#index'
+  # get '/api/menus/:id', to: 'api/menus#index'
+  # get '/api/items/:id', to: 'api/items#index'
   namespace :api do
     resources :menus
     resources :items
